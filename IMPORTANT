@@ -1,0 +1,2 @@
+Since our container image that we have uploaded was more than 100 MBs we upload the image through releases in repository.
+kindly address the releases section and there you will be able to download the container image and run it on the docker.
