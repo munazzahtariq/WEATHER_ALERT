@@ -25,7 +25,7 @@ void fetch_data_from_api(const char* city, char* response) {
     CURLcode res;
     char url[512];
 
-    snprintf(url, sizeof(url), "http://api.openweathermap.org/data/2.5/weather?q=%s&appid=6668d6e30eabcde8842b8f3c718920e3&units=metric", city);
+    snprintf(url, sizeof(url), "YOUR_API_KEY_HERE", city);
 
     curl_global_init(CURL_GLOBAL_DEFAULT);  
     curl = curl_easy_init();  
@@ -142,12 +142,3 @@ void display_hourly_data_and_average(const char* city) {
 
     calculate_average();
 }
-
-
-
-
-
-
-
-
-
