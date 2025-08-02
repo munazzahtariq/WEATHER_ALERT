@@ -8,9 +8,10 @@ extern char weather_descriptions[24][256];
 extern char cities[24][256];
 
 int main() {
-    const char* city = "Karachi";  
+    const char* city = "YOUR_CITY_HERE";  
     display_hourly_data_and_average(city);
 
     return 0;
 }
+
 
